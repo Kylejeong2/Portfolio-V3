@@ -35,6 +35,8 @@ import carshow from "./carshow.png";
 import SAV from "./SAV.png";
 import pomodoro from "./pomodoro.png";
 import uber from "./uber.png";
+import Kcord from "./Kcord.png";
+import AISWE from "./AISWE.png"
 
 export {
   logo,
@@ -70,5 +72,7 @@ export {
   carshow,
   SAV,
   uber,
-  pomodoro
+  pomodoro,
+  AISWE,
+  Kcord
 };

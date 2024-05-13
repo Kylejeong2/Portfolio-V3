@@ -29,6 +29,8 @@ import {
   SAV,
   uber,
   carshow,
+  AISWE,
+  Kcord,
 } from "../assets";
 
 export const navLinks = [
@@ -214,7 +216,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: Kcord,
     source_code_link: "https://github.com/Kylejeong2/Kcord",
   },
   {
@@ -283,7 +285,7 @@ const projects = [
   {
     name: "AI SWE Assistant",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "React App that assists user programming using OpenAI 'agents' to generate code. ",
     tags: [
       {
         name: "Python",
@@ -298,7 +300,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: AISWE,
     source_code_link: "https://github.com/Kylejeong2/AI-SWE",
   },
 ];
