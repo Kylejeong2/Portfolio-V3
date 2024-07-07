@@ -47,14 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hello, my name is Kyle. I am 19 years old and I currently live in the Bay Area. I am a student at Las Positas College studying computer science with hopes to become a software engineer. I am interested in full stack development and artificial intelligence, and my favorite language is Python. Feel free to contact me for resume or work.
+        Hello, my name is Kyle. I am 19 years old and I currently live in the Bay Area. I am a student at UCLA studying mathematics of computation with hopes to become a software engineer. I am interested in full stack development and artificial intelligence, and my favorite language is Python. Feel free to contact me for resume or work.
       </motion.p>
-
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
     </>
   );
 };
