@@ -30,6 +30,7 @@ import pomodoro from "./pomodoro.png";
 import uber from "./uber.png";
 import Kcord from "./Kcord.png";
 import AISWE from "./AISWE.png"
+import Headshot from "./pictures/Headshot.png"
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   uber,
   pomodoro,
   AISWE,
-  Kcord
+  Kcord,
+  Headshot
 };

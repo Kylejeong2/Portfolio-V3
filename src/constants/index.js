@@ -30,14 +30,22 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+    link: "#about"
   },
   {
-    id: "work",
-    title: "Work",
+    id: "Github",
+    title: "Github",
+    link: "https://github.com/Kylejeong2"
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "Twitter",
+    title: "Twitter",
+    link: "https://twitter.com/kylejeong21"
+  },
+  {
+    id: "Linkedin",
+    title: "Linkedin",
+    link: "https://www.linkedin.com/in/kyle-jeong/"
   },
 ];
 

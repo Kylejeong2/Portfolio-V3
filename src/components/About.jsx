@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-black rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hello, my name is Kyle. I am 19 years old and I currently live in the Bay Area. I am a student at UCLA studying mathematics of computation with hopes to become a software engineer. I am interested in full stack development and artificial intelligence, and my favorite language is Python. Feel free to contact me for resume or work.
+        Hello, my name is Kyle. I am 19 years old and I currently live in the Bay Area. I am a student at UCLA studying mathematics of computation and hopefully become a software engineer / create my own Startup. I am interested in full stack development and artificial intelligence, and my favorite language is Python. Feel free to contact me for resume or work.
       </motion.p>
     </>
   );
